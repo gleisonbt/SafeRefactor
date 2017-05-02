@@ -1,0 +1,14 @@
+
+init:
+    [mkdir] Created dir: /tmp/SafeRefactor20/tests/tests/bin_source/coverage
+
+emma:
+    [mkdir] Created dir: /tmp/SafeRefactor20/tests/tests/bin_source/outinstr
+
+clean:
+
+run_target:
+     [echo] Running JUnit to test the "target"
+    [junit] Running RandoopTest
+    [junit] Tests run: 619, Failures: 0, Errors: 619, Time elapsed: 0,65 sec
+    [junit] Test RandoopTest FAILED
